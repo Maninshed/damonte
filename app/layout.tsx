@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     title: "Damonte – AI Strategy Consulting",
     description:
       "Stop wasting time and money on bad AI decisions. Fix your AI strategy now with expert guidance that delivers real business results.",
-    url: "https://damonteuk.vercel.app/",
+    url: "https://damonte.vercel.app/",
     siteName: "Damonte",
     images: [
       {
-        url: "https://damonteuk.vercel.app/og-image.jpg",
+        url: "https://damonte.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Damonte – AI Strategy Consulting",
@@ -26,11 +26,15 @@ export const metadata: Metadata = {
     title: "Damonte – AI Strategy Consulting",
     description:
       "Stop wasting time and money on bad AI decisions. Fix your AI strategy now with expert guidance.",
-    images: ["https://damonteuk.vercel.app/og-image.jpg"],
+    images: ["https://damonte.vercel.app/og-image.jpg"],
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className="dark">
       <body>{children}</body>
