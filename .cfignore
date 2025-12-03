@@ -1,2 +1,3 @@
-# Ignore webpack cache - too large for Cloudflare Pages
-.next/cache/
+# Cloudflare Pages ignore file
+node_modules
+.next/cache
