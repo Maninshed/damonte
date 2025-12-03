@@ -14,29 +14,28 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://damonte.vercel.app'),
-  title: 'Damonte – AI Strategy & Consulting',
-  description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
+  title: 'Damonte – AI Strategy Consulting',
+  description: 'Stop wasting time and money on bad AI decisions. Fix your AI strategy now with expert guidance that delivers real business results.',
   openGraph: {
     type: 'website',
-    locale: 'en_GB',
     url: 'https://damonte.vercel.app',
     siteName: 'Damonte',
-    title: 'Damonte – AI Strategy & Consulting',
-    description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
+    title: 'Damonte – AI Strategy Consulting',
+    description: 'Stop wasting time and money on bad AI decisions. Fix your AI strategy now with expert guidance that delivers real business results.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://damonte.vercel.app/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Damonte – AI Strategy & Consulting',
+        alt: 'Damonte – AI Strategy Consulting',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Damonte – AI Strategy & Consulting',
-    description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
-    images: ['/og-image.jpg'],
+    title: 'Damonte – AI Strategy Consulting',
+    description: 'Stop wasting time and money on bad AI decisions. Fix your AI strategy now with expert guidance that delivers real business results.',
+    images: ['https://damonte.vercel.app/og-image.jpg'],
   },
 };
 
