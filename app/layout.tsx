@@ -13,8 +13,31 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Damonte - AI Strategy Consulting',
-  description: 'Stop wasting time and money on bad AI decisions. Fix your strategy now.',
+  metadataBase: new URL('https://damonte.vercel.app'),
+  title: 'Damonte – AI Strategy & Consulting',
+  description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://damonte.vercel.app',
+    siteName: 'Damonte',
+    title: 'Damonte – AI Strategy & Consulting',
+    description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Damonte – AI Strategy & Consulting',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Damonte – AI Strategy & Consulting',
+    description: 'Stop wasting time and money on bad AI decisions. Get expert AI strategy guidance and fix your approach now.',
+    images: ['/og-image.jpg'],
+  },
 };
 
 export default function RootLayout({
