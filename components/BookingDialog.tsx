@@ -35,7 +35,7 @@ export function BookingDialog({ children }: BookingDialogProps) {
           </DialogTitle>
           <DialogDescription className="text-base">
             Schedule a free 30-minute consultation to discuss your AI strategy and 
-            get expert guidance. We'll get back to you within 24 hours.
+            get expert guidance. We&apos;ll get back to you within 24 hours.
           </DialogDescription>
         </DialogHeader>
         <div className="mt-6">

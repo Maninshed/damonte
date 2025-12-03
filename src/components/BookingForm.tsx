@@ -321,7 +321,7 @@ export function BookingForm({ onSuccess }: BookingFormProps) {
         </Button>
 
         <p className="text-sm text-muted-foreground text-center">
-          We'll contact you within 24 hours to confirm your workshop booking.
+          We&apos;ll contact you within 24 hours to confirm your workshop booking.
         </p>
       </form>
     </Form>
