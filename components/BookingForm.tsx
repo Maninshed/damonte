@@ -319,11 +319,11 @@ export function BookingForm({ onSuccess }: BookingFormProps) {
           size="lg"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Submitting..." : "Submit Booking Request"}
+          {isSubmitting ? "Submitting..." : "Confirm AI Consultancy Call"}
         </Button>
 
         <p className="text-sm text-muted-foreground text-center">
-          We&apos;ll contact you within 24 hours to confirm your workshop booking.
+          We&apos;ll contact you within 24 hours to confirm your AI consultancy intro call.
         </p>
       </form>
     </Form>
