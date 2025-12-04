@@ -83,10 +83,10 @@ export default function Home() {
 
           <div className="text-center space-y-4">
             <p className="text-xl md:text-2xl text-cyan-400 font-semibold">
-              AI isn't the issue — the approach is.
+              AI isn&apos;t the issue — the approach is.
             </p>
             <p className="text-lg md:text-xl text-gray-300">
-              You don't need more tools.<br />
+              You don&apos;t need more tools.<br />
               You need strategic guidance from someone who understands your business.
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
 
           <div className="text-center">
             <p className="text-xl md:text-2xl text-purple-400 font-semibold">
-              If you're ready for AI to actually make a difference, this is for you.
+              If you&apos;re ready for AI to actually make a difference, this is for you.
             </p>
           </div>
         </div>
